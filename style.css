@@ -1,5 +1,7 @@
+
 body {
     font-family: 'Poppins', sans-serif;
+    
 }
 
 .ah {
@@ -7,9 +9,10 @@ body {
     font-size: 60px;
 }
 
-section {
+.top-banner{
     display: flex;
-    margin: 0;
+    margin-bottom: 150px;
+    
 }
 
 .div1 {
@@ -20,7 +23,7 @@ section {
 
 .div1 img {
     width: 80%;
-    padding-top: 10px;
+    padding-top: 40px;
 }
 
 .atr {
@@ -31,4 +34,27 @@ section {
     color: white;
     font-weight: 600;
     
+}
+
+.div2 {
+    display: flex;
+    margin-bottom: 150px;
+    
+}
+
+h3{
+    color: orange;
+}
+
+
+
+.shw{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+    border-left: 5px solid; 
+    border-color: blue;
+    border-radius: 15px;
 }
