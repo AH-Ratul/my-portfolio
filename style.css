@@ -77,3 +77,7 @@ h3{
     border-image: linear-gradient(purple, cyan);
     border-image-slice: 1;
 }
+
+footer p {
+    text-align: center;
+}
