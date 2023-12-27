@@ -45,7 +45,7 @@ const Skills = () => {
 
         <div className="w-[90%] md:w-[500px] border border-white/70 rounded p-5">
           <h1 className="text-center mb-8 text-2xl font-semibold text-white/70">
-            Backend
+            Back-End
           </h1>
           <div className="flex flex-wrap justify-center items-center gap-3">
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">

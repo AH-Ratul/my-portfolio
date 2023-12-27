@@ -19,7 +19,7 @@ const Home = () => {
         </p>
       </div>
       <div className="flex py-16 pl-5">
-        <button className="text-lg font-semibold bg-gradient-to-r from-purple-900 to-rose-800 py-2 px-6 rounded-lg">
+        <button className="text-lg text-white/80 font-semibold border py-2 px-6 rounded-lg">
           Resume
         </button>
       </div>

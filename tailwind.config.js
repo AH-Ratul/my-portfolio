@@ -8,6 +8,9 @@ export default {
     extend: {
       fontFamily: {
         Poppins: ['Poppins', 'sans-serif']
+      },
+      fontFamily: {
+        Singleday: ['Single Day', 'cursive']
       }
     },
   },
