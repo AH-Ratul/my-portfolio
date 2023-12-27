@@ -3,8 +3,8 @@ import Skills from "../Skills/Skills";
 
 const Home = () => {
   return (
-    <div className="pl-5 mt-24 text-gray-200 md:pl-20 md:pr-20">
-      <div>
+    <div className=" mt-24 text-gray-200 md:pl-20 md:pr-20">
+      <div className="pl-5">
         <h1 className="font-bold text-3xl md:text-5xl">Azmol Hasan Ratul</h1>
         <h2 className="font-semibold text-xl md:text-2xl py-5 text-gray-400">
           Front-End Developer
@@ -18,7 +18,7 @@ const Home = () => {
           odio!
         </p>
       </div>
-      <div className="flex py-16">
+      <div className="flex py-16 pl-5">
         <button className="text-lg font-semibold bg-gradient-to-r from-purple-900 to-rose-800 py-2 px-6 rounded-lg">
           Resume
         </button>
