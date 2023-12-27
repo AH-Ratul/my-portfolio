@@ -2,13 +2,15 @@ import React from "react";
 import Skills from "../Skills/Skills";
 import Projects from "../Projects/Projects";
 import Contacts from "../Contacts/Contacts";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
+    <>
     <div className=" mt-24 text-gray-200 md:pl-20 md:pr-20">
       <div className="pl-5 md:pl-1">
         <h1 className="font-bold text-3xl md:text-5xl">Azmol Hasan Ratul</h1>
-        <h2 className="font-semibold text-xl md:text-2xl py-5 text-gray-400">
+        <h2 className="font-semibold text-xl md:text-2xl py-5 text-teal-600">
           Front-End Developer
         </h2>
         <p className="text-xl mt-6 pr-5">
@@ -20,8 +22,8 @@ const Home = () => {
           odio!
         </p>
       </div>
-      <div className="flex py-16 pl-5">
-        <button className="text-lg text-white/80 font-semibold border py-2 px-6 rounded-lg">
+      <div className="flex py-16 pl-5 md:pl-1">
+        <button className="text-lg text-white/80 font-semibold border-2 border-teal-800 py-2 px-6 rounded-lg">
           Resume
         </button>
       </div>
@@ -29,6 +31,8 @@ const Home = () => {
       <Projects />
       <Contacts />
     </div>
+    <Footer />
+    </>
   );
 };
 
