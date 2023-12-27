@@ -3,11 +3,11 @@ import React from "react";
 const Skills = () => {
   return (
     <div className="mt-12 pb-9 ">
-      <h1 className="mx-auto text-center text-3xl font-bold border-b-2 border-purple-800 w-[40%] md:w-[20%] pb-1">
+      <h1 className="mx-auto text-center text-3xl font-bold border-b-2 border-white/40 w-[40%] md:w-[20%] pb-1">
         Skills
       </h1>
       <div className="mt-10 flex flex-wrap gap-10 justify-center">
-        <div className="w-[90%] md:w-[500px] border border-purple-800 rounded p-5">
+        <div className="w-[90%] md:w-[500px] border border-white/70 rounded p-5">
           <h1 className="text-center mb-8 text-2xl font-semibold text-white/70">
             Front-End
           </h1>
@@ -43,7 +43,7 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="w-[90%] md:w-[500px] border border-purple-800 rounded p-5">
+        <div className="w-[90%] md:w-[500px] border border-white/70 rounded p-5">
           <h1 className="text-center mb-8 text-2xl font-semibold text-white/70">
             Backend
           </h1>
@@ -87,7 +87,7 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="w-[90%] md:w-[500px] border border-purple-800 rounded p-5">
+        <div className="w-[90%] md:w-[500px] border border-white/70 rounded p-5">
           <h1 className="text-center mb-8 text-2xl font-semibold text-white/70">
             Others
           </h1>
