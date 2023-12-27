@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="md:flex md:justify-between md:items-center text-gray-100 pl-5 md:pl-20 md:pr-20 md:py-2 py-3 ">
+    <div className="md:flex md:justify-between md:items-center text-gray-100 pl-5 md:pl-20 md:pr-20 md:py-5 py-3 ">
       <div>
         <h1 className="font-bold text-3xl text-white font-Singleday">
           Portfolio

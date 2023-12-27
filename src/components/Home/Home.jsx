@@ -13,13 +13,8 @@ const Home = () => {
           <h2 className="font-semibold text-xl md:text-2xl py-5 text-teal-600">
             Front-End Developer
           </h2>
-          <p className="text-xl mt-6 pr-5">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt
-            explicabo deleniti voluptas tenetur sit quae voluptates itaque
-            labore eum aperiam. Rem laboriosam ea ad aut quas maxime doloremque
-            vitae cum! Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Quibusdam libero voluptas sit error ipsum tenetur deserunt mollitia
-            odio!
+          <p className="text-lg mt-7 pr-5 md:w-[80%]">
+          Patient, innovative and pragmatic frontend developer. Adequate understanding of modern web technologies. I am dedicated to creating seamless, responsive and user-friendly interfaces.
           </p>
         </div>
         <div className="flex py-16 pl-5 md:pl-1">

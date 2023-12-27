@@ -7,7 +7,7 @@ const Projects = () => {
         Projects
       </h1>
       <div className="mx-auto text-center py-8 text-2xl">
-        <h1>Updated Soon..............</h1>
+        <h1>Updated Soon....</h1>
       </div>
     </div>
   );

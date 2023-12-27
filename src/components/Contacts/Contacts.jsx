@@ -3,13 +3,13 @@ import React from "react";
 const Contacts = () => {
   return (
     <div className="pb-5">
-      <h1 className="mx-auto text-center text-3xl font-bold border-b-2 border-teal-700 w-[60%] md:w-[30%] pb-2 mt-12">
+      <h1 className="mx-auto text-center text-3xl font-bold border-b-2 border-teal-700 w-[60%] md:w-[30%] pb-1 mt-12">
         Contact
       </h1>
       <p className="mx-auto text-center py-3 text-base">
         Feel free to knock me if you have any query
       </p>
-      <div className="mx-auto mt-10  max-w-[550px]  p-5 ">
+      <div className="mx-auto mt-3  max-w-[550px]  p-5 ">
         <div className="">
           <div>
             <p className="text-lg font-semibold">Email</p>
