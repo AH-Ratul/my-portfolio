@@ -14,23 +14,23 @@ const Skills = () => {
           <div className="flex flex-wrap justify-center items-center gap-3">
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
               <img
-                src="../../../public/img/html5.svg"
+                src="../../../img/html5.svg"
                 alt=""
                 className="w-7 mr-2"
               />
               <span className="text-xl md:text-base">HTML5</span>
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
-              <img src="../../../public/img/css3.svg" alt="" className="w-5 mr-2" />
+              <img src="../../../img/css3.svg" alt="" className="w-5 mr-2" />
               <span className="text-xl md:text-base">CSS3</span>
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
-              <img src="../../../public/img/js.png" alt="" className="w-7 mr-2" />
+              <img src="../../../img/js.png" alt="" className="w-7 mr-2" />
               <span className="text-xl md:text-base">JavaScript</span>
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
               <img
-                src="../../../public/img/react.svg"
+                src="../../../img/react.svg"
                 alt=""
                 className="w-7 mr-2"
               />
@@ -38,7 +38,7 @@ const Skills = () => {
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
               <img
-                src="../../../public/img/tailwindcss.svg"
+                src="../../../img/tailwindcss.svg"
                 alt=""
                 className="w-7 mr-2"
               />
@@ -46,7 +46,7 @@ const Skills = () => {
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
               <img
-                src="../../../public/img/redux.svg"
+                src="../../../img/redux.svg"
                 alt=""
                 className="w-7 mr-2"
               />
@@ -62,7 +62,7 @@ const Skills = () => {
           <div className="flex flex-wrap justify-center items-center gap-3">
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
               <img
-                src="../../../public/img/nodejs.svg"
+                src="../../../img/nodejs.svg"
                 alt=""
                 className="w-7 mr-2"
               />
@@ -70,7 +70,7 @@ const Skills = () => {
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
               <img
-                src="../../../public/img/express-js.svg"
+                src="../../../img/express-js.svg"
                 alt=""
                 className="w-7 mr-2"
               />
@@ -78,7 +78,7 @@ const Skills = () => {
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
               <img
-                src="../../../public/img/mongodb.svg"
+                src="../../../img/mongodb.svg"
                 alt=""
                 className="w-7 mr-2"
               />
@@ -86,7 +86,7 @@ const Skills = () => {
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
               <img
-                src="../../../public/img/mongoose.png"
+                src="../../../img/mongoose.png"
                 alt=""
                 className="w-7 mr-2"
               />
@@ -94,7 +94,7 @@ const Skills = () => {
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
               <img
-                src="../../../public/img/mysql.svg"
+                src="../../../img/mysql.svg"
                 alt=""
                 className="w-7 mr-2"
               />
@@ -102,7 +102,7 @@ const Skills = () => {
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
               <img
-                src="../../../public/img/firebase.svg"
+                src="../../../img/firebase.svg"
                 alt=""
                 className="w-7 mr-2"
               />
@@ -118,14 +118,14 @@ const Skills = () => {
           <div className="flex flex-wrap justify-center items-center gap-3">
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
               <img
-                src="../../../public/img/vscode.svg"
+                src="../../../img/vscode.svg"
                 alt=""
                 className="w-7 mr-2"
               />
               <span className="text-xl md:text-base">VS Code</span>
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
-              <img src="../../../public/img/git.svg" alt="" className="w-7 mr-2" />
+              <img src="../../../img/git.svg" alt="" className="w-7 mr-2" />
               <span className="text-xl md:text-base">Git</span>
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
@@ -138,7 +138,7 @@ const Skills = () => {
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
               <img
-                src="../../../public/img/postman.svg"
+                src="../../../img/postman.svg"
                 alt=""
                 className="w-7 mr-2"
               />
@@ -146,7 +146,7 @@ const Skills = () => {
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
               <img
-                src="../../../public/img/netlify.svg"
+                src="../../../img/netlify.svg"
                 alt=""
                 className="w-7 mr-2"
               />
