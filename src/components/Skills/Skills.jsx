@@ -1,7 +1,7 @@
 import React from "react";
-import html5 from '../../../img/html5.svg';
-import css3 from '../../../img/css3.svg';
-import js from '../../../img/js.png';
+import html5 from "../../../img/html5.svg";
+import css3 from "../../../img/css3.svg";
+import js from "../../../img/js.png";
 import reactjs from "../../../img/react.svg";
 import tailwind from "../../../img/tailwindcss.svg";
 import redux from "../../../img/redux.svg";
@@ -16,7 +16,6 @@ import git from "../../../img/git.svg";
 import github from "../../../img/github.png";
 import postman from "../../../img/postman.svg";
 import netlify from "../../../img/netlify.svg";
-
 
 const Skills = () => {
   return (
@@ -47,11 +46,7 @@ const Skills = () => {
               <span className="text-base text-white/70 ">React JS</span>
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
-              <img
-                src={tailwind}
-                alt=""
-                className="w-6 mr-2"
-              />
+              <img src={tailwind} alt="" className="w-6 mr-2" />
               <span className="text-base text-white/70 ">Tailwind CSS</span>
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
@@ -71,11 +66,7 @@ const Skills = () => {
               <span className="text-base text-white/70 ">Node JS</span>
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
-              <img
-                src={expressjs}
-                alt=""
-                className="w-6 mr-2"
-              />
+              <img src={expressjs} alt="" className="w-6 mr-2" />
               <span className="text-base text-white/70 ">Express JS</span>
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
@@ -83,11 +74,7 @@ const Skills = () => {
               <span className="text-base text-white/70 ">MongoDB</span>
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
-              <img
-                src={mongoose}
-                alt=""
-                className="w-7 mr-2"
-              />
+              <img src={mongoose} alt="" className="w-7 mr-2" />
               <span className="text-base text-white/70">Mongoose</span>
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
@@ -95,11 +82,7 @@ const Skills = () => {
               <span className="text-base text-white/70">MySql</span>
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
-              <img
-                src={firebase}
-                alt=""
-                className="w-7 mr-2"
-              />
+              <img src={firebase} alt="" className="w-7 mr-2" />
               <span className="text-base text-white/70">Firebase</span>
             </div>
           </div>

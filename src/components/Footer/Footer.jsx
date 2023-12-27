@@ -13,21 +13,21 @@ const Footer = () => {
         <a
           href="https://github.com/AH-Ratul"
           target="blank"
-          className="mr-5 text-2xl"
+          className="mr-5 text-3xl"
         >
           <FaGithub />
         </a>
         <a
           href="https://www.linkedin.com/in/md-azmol-hasan-ratul-339000247/"
           target="blank"
-          className="mr-5 text-2xl"
+          className="mr-5 text-3xl"
         >
           <FaLinkedin />
         </a>
         <a
           href="https://web.facebook.com/ah.ratul.7/"
           target="blank"
-          className=" text-2xl"
+          className=" text-3xl"
         >
           <FaFacebookSquare />
         </a>
