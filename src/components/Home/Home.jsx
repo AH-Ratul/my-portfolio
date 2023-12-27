@@ -1,10 +1,12 @@
 import React from "react";
 import Skills from "../Skills/Skills";
+import Projects from "../Projects/Projects";
+import Contacts from "../Contacts/Contacts";
 
 const Home = () => {
   return (
     <div className=" mt-24 text-gray-200 md:pl-20 md:pr-20">
-      <div className="pl-5">
+      <div className="pl-5 md:pl-1">
         <h1 className="font-bold text-3xl md:text-5xl">Azmol Hasan Ratul</h1>
         <h2 className="font-semibold text-xl md:text-2xl py-5 text-gray-400">
           Front-End Developer
@@ -24,6 +26,8 @@ const Home = () => {
         </button>
       </div>
       <Skills />
+      <Projects />
+      <Contacts />
     </div>
   );
 };
