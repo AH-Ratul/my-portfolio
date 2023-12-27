@@ -5,7 +5,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="text-white text-center bg-black py-20 mt-12  ">
+    <div className="text-white text-center bg-black py-10 mt-12  ">
       <h1 className="text-2xl font-bold text-white/70 mb-3">
         Azmol Hasan Ratul
       </h1>
