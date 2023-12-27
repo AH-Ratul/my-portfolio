@@ -6,7 +6,7 @@ const Contacts = () => {
       <h1 className="mx-auto text-center text-3xl font-bold border-b-2 border-white/40 w-[70%] md:w-[40%] pb-2 mt-12">
         Contact
       </h1>
-      <p className="mx-auto text-center py-3 text-xl">Feel free to knock me if you have any query</p>
+      <p className="mx-auto text-center py-3 text-base">Feel free to knock me if you have any query</p>
       <div className="mx-auto mt-10  max-w-[550px]  p-5 ">
         <div className="">
         <div>
