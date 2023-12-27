@@ -13,28 +13,20 @@ const Skills = () => {
           </h1>
           <div className="flex flex-wrap justify-center items-center gap-3">
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
-              <img
-                src="../../../img/html5.svg"
-                alt=""
-                className="w-7 mr-2"
-              />
-              <span className="text-xl md:text-base">HTML5</span>
+              <img src="../../../img/html5.svg" alt="" className="w-7 mr-2" />
+              <span className="text-base text-white/70 ">HTML5</span>
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
               <img src="../../../img/css3.svg" alt="" className="w-5 mr-2" />
-              <span className="text-xl md:text-base">CSS3</span>
+              <span className="text-base text-white/70 ">CSS3</span>
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
               <img src="../../../img/js.png" alt="" className="w-7 mr-2" />
-              <span className="text-xl md:text-base">JavaScript</span>
+              <span className="text-base text-white/70 ">JavaScript</span>
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
-              <img
-                src="../../../img/react.svg"
-                alt=""
-                className="w-7 mr-2"
-              />
-              <span className="text-xl md:text-base">React JS</span>
+              <img src="../../../img/react.svg" alt="" className="w-7 mr-2" />
+              <span className="text-base text-white/70 ">React JS</span>
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
               <img
@@ -42,15 +34,11 @@ const Skills = () => {
                 alt=""
                 className="w-7 mr-2"
               />
-              <span className="text-xl md:text-base">Tailwind CSS</span>
+              <span className="text-base text-white/70 ">Tailwind CSS</span>
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
-              <img
-                src="../../../img/redux.svg"
-                alt=""
-                className="w-7 mr-2"
-              />
-              <span className="text-xl md:text-base">Redux</span>
+              <img src="../../../img/redux.svg" alt="" className="w-7 mr-2" />
+              <span className="text-base text-white/70 ">Redux</span>
             </div>
           </div>
         </div>
@@ -61,12 +49,8 @@ const Skills = () => {
           </h1>
           <div className="flex flex-wrap justify-center items-center gap-3">
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
-              <img
-                src="../../../img/nodejs.svg"
-                alt=""
-                className="w-7 mr-2"
-              />
-              <span className="text-xl md:text-base">Node JS</span>
+              <img src="../../../img/nodejs.svg" alt="" className="w-7 mr-2" />
+              <span className="text-base text-white/70 ">Node JS</span>
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
               <img
@@ -74,15 +58,11 @@ const Skills = () => {
                 alt=""
                 className="w-7 mr-2"
               />
-              <span className="text-xl md:text-base">Express JS</span>
+              <span className="text-base text-white/70 ">Express JS</span>
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
-              <img
-                src="../../../img/mongodb.svg"
-                alt=""
-                className="w-7 mr-2"
-              />
-              <span className="text-xl md:text-base">MongoDB</span>
+              <img src="../../../img/mongodb.svg" alt="" className="w-7 mr-2" />
+              <span className="text-base text-white/70 ">MongoDB</span>
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
               <img
@@ -90,15 +70,11 @@ const Skills = () => {
                 alt=""
                 className="w-7 mr-2"
               />
-              <span className="text-xl md:text-base">Mongoose</span>
+              <span className="text-base text-white/70">Mongoose</span>
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
-              <img
-                src="../../../img/mysql.svg"
-                alt=""
-                className="w-7 mr-2"
-              />
-              <span className="text-xl md:text-base">MySql</span>
+              <img src="../../../img/mysql.svg" alt="" className="w-7 mr-2" />
+              <span className="text-base text-white/70">MySql</span>
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
               <img
@@ -106,7 +82,7 @@ const Skills = () => {
                 alt=""
                 className="w-7 mr-2"
               />
-              <span className="text-xl md:text-base">Firebase</span>
+              <span className="text-base text-white/70">Firebase</span>
             </div>
           </div>
         </div>
@@ -117,40 +93,24 @@ const Skills = () => {
           </h1>
           <div className="flex flex-wrap justify-center items-center gap-3">
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
-              <img
-                src="../../../img/vscode.svg"
-                alt=""
-                className="w-7 mr-2"
-              />
-              <span className="text-xl md:text-base">VS Code</span>
+              <img src="../../../img/vscode.svg" alt="" className="w-7 mr-2" />
+              <span className="text-base text-white/70">VS Code</span>
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
               <img src="../../../img/git.svg" alt="" className="w-7 mr-2" />
-              <span className="text-xl md:text-base">Git</span>
+              <span className="text-base text-white/70">Git</span>
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
-              <img
-                src="../../../public/img/github.png"
-                alt=""
-                className="w-7 mr-2"
-              />
-              <span className="text-xl md:text-base">Github</span>
+              <img src="../../../img/github.png" alt="" className="w-7 mr-2" />
+              <span className="text-base text-white/70">Github</span>
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
-              <img
-                src="../../../img/postman.svg"
-                alt=""
-                className="w-7 mr-2"
-              />
-              <span className="text-xl md:text-base">Postman</span>
+              <img src="../../../img/postman.svg" alt="" className="w-7 mr-2" />
+              <span className="text-base text-white/70">Postman</span>
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
-              <img
-                src="../../../img/netlify.svg"
-                alt=""
-                className="w-7 mr-2"
-              />
-              <span className="text-xl md:text-base">Netlify</span>
+              <img src="../../../img/netlify.svg" alt="" className="w-7 mr-2" />
+              <span className="text-base text-white/70">Netlify</span>
             </div>
           </div>
         </div>
