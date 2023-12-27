@@ -24,7 +24,7 @@ const Contacts = () => {
         </div>
         <div>
           <p className="text-lg">Message</p>
-          <textarea name="place" cols="65" rows="10" className="border bg-[#1c1d25] p-2 my-3 rounded focus:border-purple-700 outline-none"></textarea>
+          <textarea name="place" cols="35" rows="10" className="border w-full bg-inherit p-2 my-3 rounded focus:border-purple-700 outline-none"></textarea>
         </div>
         <button className="border rounded-md text-lg font-semibold mt-4 py-2 px-5">Send</button>
       </div>
