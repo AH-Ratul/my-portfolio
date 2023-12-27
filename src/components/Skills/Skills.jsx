@@ -1,4 +1,5 @@
 import React from "react";
+import html5 from '../../../img/html5.svg'
 
 const Skills = () => {
   return (
@@ -13,7 +14,7 @@ const Skills = () => {
           </h1>
           <div className="flex flex-wrap justify-center items-center gap-3">
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
-              <img src="../../../img/html5.svg" alt="" className="w-6 mr-2" />
+              <img src={html5} alt="" className="w-6 mr-2" />
               <span className="text-base text-white/70 ">HTML5</span>
             </div>
             <div className="flex items-center rounded-md border border-gray-500 px-4 py-3">
