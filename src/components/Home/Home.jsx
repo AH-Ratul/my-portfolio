@@ -14,11 +14,13 @@ const Home = () => {
             Front-End Developer
           </h2>
           <p className="text-lg mt-7 pr-5 md:w-[80%]">
-          Patient, innovative and pragmatic frontend developer. Adequate understanding of modern web technologies. I am dedicated to creating seamless, responsive and user-friendly interfaces.
+            Patient, innovative and pragmatic frontend developer. Adequate
+            understanding of modern web technologies. I am dedicated to creating
+            seamless, responsive and user-friendly interfaces.
           </p>
         </div>
         <div className="flex py-16 pl-5 md:pl-1">
-          <button className="text-lg text-white/80 font-semibold border-2 border-teal-700 hover:border-teal-600 py-2 px-6 rounded-lg">
+          <button className="text-lg text-white/80 font-semibold border-2 border-teal-700 hover:border-teal-500 py-2 px-6 rounded-lg transition duration-1000 ease-out">
             Resume
           </button>
         </div>

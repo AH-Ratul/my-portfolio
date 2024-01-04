@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 const Contacts = () => {
-  const form = useRef();
+  const form = useRef(); 
 
   const sendEmail = (e) => {
     e.preventDefault(); 
@@ -35,7 +35,7 @@ const Contacts = () => {
         Feel free to knock me if you have any query
       </p>
       <div className="mx-auto mt-3  max-w-[550px]  p-5 ">
-        <form ref={form} onSubmit={sendEmail} className="">
+        <form ref={form} onSubmit={sendEmail}>
           <div>
             <p className="text-base font-semibold">Name</p>
             <input
@@ -76,7 +76,7 @@ const Contacts = () => {
           <input
             type="submit"
             value="Send"
-            className="border-2 border-teal-700 hover:border-teal-600 rounded-md text-base font-semibold mt-4 py-2 px-5 cursor-pointer"
+            className="border-2 border-teal-700 hover:border-teal-500 rounded-md text-base font-semibold mt-4 py-2 px-5 cursor-pointer transition duration-1000 ease-out"
           />
         </form>
       </div>

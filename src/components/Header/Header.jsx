@@ -9,13 +9,13 @@ const Header = () => {
         </h1>
       </div>
       <div className="hidden md:block md:flex ">
-        <h2 className="text-lg font-semibold mr-20 cursor-pointer hover:text-teal-500">
+        <h2 className="text-lg font-semibold mr-20 cursor-pointer hover:text-teal-500 transition duration-700 ease-in-out">
           Skills
         </h2>
-        <h2 className="text-lg font-semibold mr-20 cursor-pointer hover:text-teal-500">
+        <h2 className="text-lg font-semibold mr-20 cursor-pointer hover:text-teal-500 transition duration-700 ease-in-out">
           Projects
         </h2>
-        <h2 className="text-lg font-semibold cursor-pointer hover:text-teal-500">
+        <h2 className="text-lg font-semibold cursor-pointer hover:text-teal-500 transition duration-700 ease-in-out">
           Contact
         </h2>
       </div>
