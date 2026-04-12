@@ -2,9 +2,8 @@ import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 
 function App() {
-  //#1c1d25
   return (
-    <div className="bg-[#1c1d25]">
+    <div className="bg-dark-bg text-text-main min-h-screen font-mono">
       <Header />
       <Home />
     </div>
