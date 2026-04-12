@@ -160,7 +160,7 @@ const Projects = () => {
 
             {/* Action Buttons */}
             <div className="flex justify-end  pt-4 border-t border-dark-border/50">
-              <div className="flex gap-4 w-full lg:w-1/2">
+              <div className="flex flex-wrap gap-4 w-full lg:w-1/2">
                 <motion.a
                   href={project.liveUrl}
                   whileHover={{ scale: 1.05 }}
