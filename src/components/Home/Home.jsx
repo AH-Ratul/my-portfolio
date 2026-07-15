@@ -118,7 +118,7 @@ const Home = () => {
                   className="text-secondary hover:text-white"
                 />
                 <a
-                  href="https://drive.google.com/file/d/1JG0yJcin8Hi6PCyEDBS-8WxO-JpgOHR/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1sWxMlsm8vkhtux2Ekt1GZMarPc0pyB_Y/view?usp=drive_link"
                   target="_blank"
                   className="text-text-main"
                 >
