@@ -78,10 +78,13 @@ const Home = () => {
               variants={itemVariants}
               className="text-base text-text-dim leading-[1.85] max-w-xl font-normal"
             >
-              Passionate full-stack developer dedicated to building innovative
-              and efficient web solutions. With a keen eye for detail and love
-              for coding, I create immersive digital experiences that blend
-              creativity with flawless functionality.
+              Full Stack Developer with hands-on experience building scalable
+              web applications using React.js, Next.js, Node.js, and TypeScript.
+              Experienced in developing responsive user interfaces, integrating
+              REST APIs, and designing secure backend services with modern
+              databases. Passionate about writing clean, maintainable code,
+              optimizing performance, and continuously learning to build
+              reliable software that delivers real business value.
             </motion.p>
 
             {/* CTA Buttons */}
