@@ -13,19 +13,18 @@ const Home = () => {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.15,
-        delayChildren: 0.2,
+        staggerChildren: 0.06,
+        delayChildren: 0.05,
       },
     },
   };
 
   const itemVariants = {
-    hidden: { opacity: 0, y: 30, filter: "blur(10px)" },
+    hidden: { opacity: 0, y: 30 },
     visible: {
       opacity: 1,
       y: 0,
-      filter: "blur(0px)",
-      transition: { duration: 0.8, ease: "easeOut" },
+      transition: { duration: 0.45, ease: "easeOut" },
     },
   };
 
@@ -33,8 +32,8 @@ const Home = () => {
     <div className="relative min-h-screen">
       {/* Background glowing blobs */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10 bg-dark-bg">
-        <div className="absolute top-[-10%] right-[-5%] w-[40vw] h-[40vw] rounded-full bg-secondary/10 blur-[100px]" />
-        <div className="absolute bottom-[-10%] left-[-10%] w-[50vw] h-[50vw] rounded-full bg-primary/10 blur-[120px]" />
+        <div className="decorative-glow absolute top-[-10%] right-[-5%] w-[40vw] h-[40vw] rounded-full bg-secondary/10 blur-[100px]" />
+        <div className="decorative-glow absolute bottom-[-10%] left-[-10%] w-[50vw] h-[50vw] rounded-full bg-primary/10 blur-[120px]" />
       </div>
 
       <div className="pt-32 md:pt-40 pb-16 md:pb-24 px-5 md:px-20 max-w-6xl mx-auto">
@@ -139,12 +138,15 @@ const Home = () => {
             <motion.div
               animate={{ y: [-10, 10, -10] }}
               transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-              className="w-80 h-80 glass rounded-3xl flex items-center justify-center border border-dark-border shadow-[0_0_60px_rgba(6,182,212,0.3)] hover:shadow-[0_0_30px_rgba(6,182,212,0.3)] transition-all duration-700"
+              className="motion-layer w-80 h-80 glass rounded-3xl flex items-center justify-center border border-dark-border shadow-[0_0_60px_rgba(6,182,212,0.3)] hover:shadow-[0_0_30px_rgba(6,182,212,0.3)] transition-all duration-700"
             >
               <div className="w-full h-full rounded-3xl overflow-hidden bg-primary/10">
                 <img
                   src={profile}
                   alt="profile"
+                  width="320"
+                  height="320"
+                  decoding="async"
                   className="w-full h-full object-cover rounded-3xl"
                 />
               </div>
@@ -156,7 +158,7 @@ const Home = () => {
         <motion.div
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
-          className="flex justify-center mt-20"
+          className="motion-layer flex justify-center mt-20"
         >
           <div className="text-primary opacity-60">
             <ChevronDown size={36} />

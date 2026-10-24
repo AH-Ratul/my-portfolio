@@ -7,11 +7,19 @@ const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
+    let frameId = null;
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20);
+      if (frameId !== null) return;
+      frameId = window.requestAnimationFrame(() => {
+        setIsScrolled(window.scrollY > 20);
+        frameId = null;
+      });
     };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      if (frameId !== null) window.cancelAnimationFrame(frameId);
+    };
   }, []);
 
   const navItems = [
@@ -30,7 +38,7 @@ const Header = () => {
       <motion.header
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.8, ease: "easeOut" }}
+        transition={{ duration: 0.35, ease: "easeOut" }}
         className={`w-full max-w-5xl transition-all duration-500 rounded-full ${
           isScrolled
             ? "glass py-2 px-6"

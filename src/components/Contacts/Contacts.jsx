@@ -1,6 +1,5 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
-import emailjs from "@emailjs/browser";
 import { Send, AlertCircle, CheckCircle } from "lucide-react";
 
 const Contacts = () => {
@@ -12,12 +11,14 @@ const Contacts = () => {
     e.preventDefault();
     setIsLoading(true);
 
-    emailjs
-      .sendForm(
-        import.meta.env.VITE_SERVICE_KEY,
-        import.meta.env.VITE_TEMP_KEY,
-        form.current,
-        import.meta.env.VITE_PUBLIC_KEY,
+    import("@emailjs/browser")
+      .then(({ default: emailjs }) =>
+        emailjs.sendForm(
+          import.meta.env.VITE_SERVICE_KEY,
+          import.meta.env.VITE_TEMP_KEY,
+          form.current,
+          import.meta.env.VITE_PUBLIC_KEY,
+        ),
       )
       .then(
         () => {

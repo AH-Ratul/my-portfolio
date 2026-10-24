@@ -170,6 +170,10 @@ const Skills = () => {
                   <img
                     src={skill.icon}
                     alt={skill.name}
+                    width="40"
+                    height="40"
+                    loading="lazy"
+                    decoding="async"
                     className="w-10 h-10 mb-3 object-contain filter drop-shadow-md group-hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.3)] transition-all duration-300"
                   />
                   <span className="text-xs font-semibold text-text-main text-center tracking-wide group-hover:text-primary transition-colors">
